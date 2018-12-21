@@ -20,7 +20,7 @@ END_VAR
 (* @END_DECLARATION := '0' *)
 IF IN <> M THEN
 	IF IN THEN
-		SR; (* start, or restart the timer *)
+		SR(); (* start, or restart the timer *)
 	ELSE
 		M := FALSE; (* rearm of timer trigger *)
 	END_IF
